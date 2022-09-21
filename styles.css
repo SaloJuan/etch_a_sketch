@@ -1,0 +1,46 @@
+body{
+    display:grid;
+    border: salmon 100px
+    
+    
+
+}
+
+body .grid-size{
+
+    justify-self: center;
+    align-self: center;
+}
+
+body .reset-window{
+
+    justify-self: center;
+    align-self: center;
+}
+
+.grid-size{
+    margin-bottom: 1%;
+}
+
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    row-gap: 6px;
+  
+    
+
+}
+
+.caja{
+
+    text-align: center;
+    width: 40px;
+    height: 40px;     
+    background-color: black;
+    border: 2px;
+    border-style: solid;
+
+    
+}
